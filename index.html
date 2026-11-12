@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>นโยบายความเป็นส่วนตัว Paytan (จ่ายทัน) · Privacy Policy</title>
+<style>
+  :root {
+    --bg: #fbfbfe;
+    --fg: #1b1b23;
+    --muted: #5b5d6e;
+    --line: #dcdce8;
+    --accent: #4a55e8;
+    --card: #ffffff;
+    --todo-bg: #fff3b0;
+    --todo-fg: #4a3b00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121218;
+      --fg: #e6e6f0;
+      --muted: #a4a6b8;
+      --line: #2e2e3d;
+      --accent: #aab2ff;
+      --card: #1b1b25;
+      --todo-bg: #5a4a00;
+      --todo-fg: #ffeaa0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans Thai", "Sarabun", Roboto, sans-serif;
+    line-height: 1.7;
+    font-size: 17px;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.3; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; padding-top: .5rem; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.02rem; margin: 1.2rem 0 .3rem; }
+  p, li { margin: .4rem 0; }
+  ul { padding-left: 1.3rem; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: .95rem; margin: 0 0 1rem; }
+  .langnav { display: flex; gap: 12px; margin: 12px 0 28px; flex-wrap: wrap; }
+  .langnav a {
+    padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px;
+    text-decoration: none; background: var(--card);
+  }
+  .box {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px 16px; margin: 1rem 0;
+  }
+  .todo { background: var(--todo-bg); color: var(--todo-fg); padding: 0 .25em; border-radius: 4px; }
+  table { width: 100%; border-collapse: collapse; margin: .8rem 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--card); }
+  .tablewrap { overflow-x: auto; }
+  hr.lang { border: 0; border-top: 3px solid var(--line); margin: 3rem 0 2rem; }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="langnav" aria-label="Language">
+  <a href="#th">ไทย</a>
+  <a href="#en">English</a>
+</nav>
+
+<!-- ===================== ภาษาไทย ===================== -->
+<section id="th" lang="th">
+  <h1>นโยบายความเป็นส่วนตัว — Paytan (จ่ายทัน)</h1>
+  <p class="meta">มีผลบังคับใช้: 12 พฤศจิกายน 2569</p>
+
+  <p>Paytan (จ่ายทัน) เป็นแอปบันทึกและติดตามบัตรเครดิตของคุณเอง ผู้พัฒนาแอปคือ Neyo_berg (ต่อไปนี้ "ผู้พัฒนา") หน้านี้อธิบายว่าแอปเก็บและใช้ข้อมูลอะไรบ้าง</p>
+
+  <div class="box">
+    <strong>สรุปสั้น ๆ</strong>
+    <ul>
+      <li>ข้อมูลบัตรและรายการใช้จ่ายที่คุณกรอก <strong>เก็บอยู่ในเครื่องของคุณเท่านั้น</strong> ในฐานข้อมูลที่เข้ารหัส ผู้พัฒนาไม่มีเซิร์ฟเวอร์รับข้อมูลเหล่านี้และไม่เห็นข้อมูลของคุณ</li>
+      <li>แอปไม่ต้องสมัครสมาชิกหรือเข้าสู่ระบบ</li>
+      <li>แอปไม่เก็บเลขบัตรเต็ม วันหมดอายุ รหัส CVV รหัส OTP หรือรหัสผ่านธนาคาร</li>
+      <li>ข้อมูลที่ออกจากเครื่องมีเฉพาะที่บริการของบุคคลที่สามในแอปเก็บ ได้แก่ โฆษณา (Google AdMob) และการซื้อปลดล็อก (Google Play และ RevenueCat) ดูรายละเอียดด้านล่าง</li>
+    </ul>
+  </div>
+
+  <h2>1. ข้อมูลที่เก็บในเครื่องของคุณ</h2>
+  <p>เมื่อคุณใช้แอป ข้อมูลต่อไปนี้ที่คุณกรอกจะถูกบันทึกในเครื่อง:</p>
+  <ul>
+    <li>ข้อมูลบัตร: ชื่อบัตรที่คุณตั้ง ชื่อผู้ออกบัตร เลขท้าย 4 หลัก วงเงิน วันตัดรอบบิล และวันครบกำหนดชำระ</li>
+    <li>รายการใช้จ่ายและการชำระ: จำนวนเงิน ชื่อร้านค้า บันทึก และวันที่</li>
+    <li>แผนผ่อนชำระและตารางงวด</li>
+    <li>การตั้งค่าของแอป: ภาษา ธีม บัตรโปรด และการเตือน</li>
+  </ul>
+  <p>ข้อมูลเหล่านี้อยู่ในฐานข้อมูล SQLite ที่เข้ารหัสด้วย SQLCipher กุญแจเข้ารหัสสร้างบนเครื่องคุณและเก็บในที่เก็บข้อมูลปลอดภัยของระบบ (Android Keystore / iOS Keychain) ผู้พัฒนาไม่ได้รับสำเนาของข้อมูลหรือกุญแจนี้</p>
+
+  <h2>2. การแจ้งเตือน</h2>
+  <p>การแจ้งเตือนวันครบกำหนดชำระถูกตั้งเวลาและแสดงบนเครื่องของคุณเอง ไม่ผ่านเซิร์ฟเวอร์ของผู้พัฒนา คุณปิดการแจ้งเตือนได้ในการตั้งค่าของระบบ</p>
+
+  <h2>3. ข้อมูลที่บริการของบุคคลที่สามเก็บ</h2>
+  <p>แอปใช้ชุดพัฒนา (SDK) ของบุคคลที่สามสองส่วน ซึ่งส่งข้อมูลบางอย่างจากเครื่องของคุณไปยังผู้ให้บริการนั้นโดยตรง</p>
+
+  <h3>3.1 โฆษณา — Google AdMob และ Google User Messaging Platform</h3>
+  <p>เวอร์ชันที่ยังไม่ปลดล็อกแสดงแบนเนอร์โฆษณาขนาดเล็กท้ายบางหน้า ชุดพัฒนาโฆษณาเริ่มทำงานเมื่อคุณเปิดแอป ตามเอกสารของ Google ชุดพัฒนานี้เก็บข้อมูลต่อไปนี้โดยอัตโนมัติ เพื่อการโฆษณา การวิเคราะห์ และการป้องกันการฉ้อโกง:</p>
+  <ul>
+    <li>ที่อยู่ IP (ซึ่งอาจใช้ประมาณตำแหน่งโดยทั่วไปของอุปกรณ์)</li>
+    <li>การโต้ตอบกับผลิตภัณฑ์ เช่น การเปิดแอป การแตะ และการดูวิดีโอ</li>
+    <li>ข้อมูลวินิจฉัย เช่น ประสิทธิภาพของแอปและชุดพัฒนา</li>
+    <li>ตัวระบุอุปกรณ์ เช่น รหัสโฆษณา Android (advertising ID) และ app set ID</li>
+  </ul>
+  <p>แอปตั้งค่าให้ขอโฆษณาแบบ<strong>ไม่ปรับแต่งตามบุคคล</strong> และขอความยินยอมผ่านแบบฟอร์มของ Google ในพื้นที่ที่กฎหมายกำหนด คุณรีเซ็ตหรือลบรหัสโฆษณาได้ในการตั้งค่า Android ข้อมูลถูกเข้ารหัสระหว่างส่ง (TLS) การใช้ข้อมูลของ Google อยู่ภายใต้ <a href="https://policies.google.com/privacy" rel="noopener">นโยบายความเป็นส่วนตัวของ Google</a></p>
+
+  <h3>3.2 การซื้อปลดล็อก — Google Play และ RevenueCat</h3>
+  <p>การซื้อเพื่อปลดล็อกเต็มรูปแบบ (ซื้อครั้งเดียว) ชำระผ่านระบบของ Google Play ผู้พัฒนาไม่เห็นหรือเก็บข้อมูลบัตรชำระเงินของคุณ แอปใช้บริการ RevenueCat เพื่อตรวจสอบสิทธิ์ของการซื้อและกู้คืนการซื้อ ซึ่งตามเอกสารของ RevenueCat จะเก็บประวัติการซื้อ ตัวระบุผู้ใช้ที่แอปสร้างขึ้นโดยไม่ระบุตัวตน และข้อมูลภาษาและสกุลเงินของอุปกรณ์ เพื่อให้ฟังก์ชันซื้อและกู้คืนทำงาน และเพื่อการวิเคราะห์ ข้อมูลถูกเข้ารหัสระหว่างส่ง ดู <a href="https://www.revenuecat.com/privacy-policy" rel="noopener">นโยบายความเป็นส่วนตัวของ RevenueCat</a></p>
+
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>ข้อมูล</th><th>ที่เก็บ</th><th>ออกจากเครื่องหรือไม่</th></tr></thead>
+    <tbody>
+      <tr><td>บัตร รายการใช้จ่าย แผนผ่อน การตั้งค่า</td><td>ในเครื่องคุณ (เข้ารหัส)</td><td>ไม่</td></tr>
+      <tr><td>IP การโต้ตอบ ข้อมูลวินิจฉัย ตัวระบุอุปกรณ์/รหัสโฆษณา</td><td>Google (AdMob)</td><td>ใช่ — เมื่อเปิดแอปและเมื่อแสดงโฆษณา</td></tr>
+      <tr><td>ประวัติการซื้อ สถานะสิทธิ์ ตัวระบุผู้ใช้แบบไม่ระบุตัวตน</td><td>RevenueCat และ Google Play</td><td>ใช่ — เมื่อซื้อหรือกู้คืนการซื้อ</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>4. การแบ่งปันและการขายข้อมูล</h2>
+  <p>ผู้พัฒนาไม่ขายข้อมูลของคุณ และไม่ได้รับข้อมูลบัตรหรือรายการใช้จ่ายของคุณ ข้อมูลที่ส่งถึงผู้ให้บริการในหัวข้อ 3 เป็นไปตามนโยบายของผู้ให้บริการแต่ละราย</p>
+
+  <h2>5. การเก็บรักษาและการลบข้อมูล</h2>
+  <ul>
+    <li><strong>ข้อมูลในเครื่อง:</strong> คุณลบรายการหรือบัตรได้ในแอป หรือลบทั้งหมดด้วยการล้างข้อมูลแอปในการตั้งค่าของระบบหรือถอนการติดตั้งแอป กุญแจเข้ารหัสจะถูกลบพร้อมการถอนการติดตั้ง ทำให้ข้อมูลเดิมอ่านไม่ได้</li>
+    <li><strong>ข้อมูลที่ผู้ให้บริการเก็บ:</strong> หากต้องการให้ลบข้อมูลการซื้อที่ RevenueCat เก็บ ติดต่อผู้พัฒนาตามหัวข้อ 8 แล้วผู้พัฒนาจะประสานลบให้ ส่วนข้อมูลโฆษณาของ Google จัดการได้ที่การตั้งค่าบัญชี Google และการตั้งค่ารหัสโฆษณาของ Android</li>
+  </ul>
+
+  <h2>6. ผู้ใช้ที่เป็นเด็ก</h2>
+  <p>แอปไม่ได้จัดทำขึ้นสำหรับเด็ก และผู้พัฒนาไม่ได้ตั้งใจเก็บข้อมูลจากเด็ก</p>
+
+  <h2>7. การเปลี่ยนแปลงนโยบาย</h2>
+  <p>หากมีการเปลี่ยนแปลง ผู้พัฒนาจะปรับปรุงหน้านี้และแก้วันที่มีผลบังคับใช้ด้านบน</p>
+
+  <h2>8. ติดต่อผู้พัฒนา</h2>
+  <p>อีเมล: <a href="mailto:paytan966@gmail.com">paytan966@gmail.com</a></p>
+</section>
+
+<hr class="lang">
+
+<!-- ===================== English ===================== -->
+<section id="en" lang="en">
+  <h1>Privacy Policy — Paytan</h1>
+  <p class="meta">Effective: 12 November 2026</p>
+
+  <p>Paytan (จ่ายทัน) is an app for recording and tracking your own credit cards. The developer is Neyo_berg ("the developer"). This page explains what the app collects and uses.</p>
+
+  <div class="box">
+    <strong>In short</strong>
+    <ul>
+      <li>The card and spending data you enter <strong>stays on your device</strong>, in an encrypted database. The developer runs no server that receives it and cannot see it.</li>
+      <li>There is no sign-up or login.</li>
+      <li>The app does not store full card numbers, expiry dates, CVV codes, OTPs or bank passwords.</li>
+      <li>Data leaves your device only through the third-party services built into the app: ads (Google AdMob) and the unlock purchase (Google Play and RevenueCat). Details below.</li>
+    </ul>
+  </div>
+
+  <h2>1. Data stored on your device</h2>
+  <p>Data you enter is saved locally:</p>
+  <ul>
+    <li>Card details: the card name you choose, issuer name, last 4 digits, credit limit, statement day and payment due day</li>
+    <li>Transactions and payments: amount, merchant name, note and date</li>
+    <li>Installment plans and their schedules</li>
+    <li>App settings: language, theme, favorite cards and reminders</li>
+  </ul>
+  <p>This data is kept in a SQLite database encrypted with SQLCipher. The encryption key is generated on your device and kept in the system's secure storage (Android Keystore / iOS Keychain). The developer receives no copy of the data or the key.</p>
+
+  <h2>2. Notifications</h2>
+  <p>Payment-due reminders are scheduled and shown on your device itself, not through the developer's servers. You can turn them off in system settings.</p>
+
+  <h2>3. Data collected by third-party services</h2>
+  <p>The app includes two third-party software development kits (SDKs) that send some data from your device directly to those providers.</p>
+
+  <h3>3.1 Ads — Google AdMob and Google User Messaging Platform</h3>
+  <p>The free (not unlocked) version shows a small banner ad at the bottom of some screens. The ads SDK starts when you open the app. According to Google's documentation, it automatically collects the following for advertising, analytics and fraud prevention:</p>
+  <ul>
+    <li>IP address (which may be used to estimate the device's general location)</li>
+    <li>Product interactions such as app launches, taps and video views</li>
+    <li>Diagnostic information about app and SDK performance</li>
+    <li>Device identifiers such as the Android advertising ID and app set ID</li>
+  </ul>
+  <p>The app is configured to request <strong>non-personalized ads only</strong>, and shows Google's consent form where the law requires it. You can reset or delete the advertising ID in Android settings. Data is encrypted in transit (TLS). Google's use of data is governed by <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>.</p>
+
+  <h3>3.2 Unlock purchase — Google Play and RevenueCat</h3>
+  <p>The one-time purchase that unlocks the full version is paid through Google Play. The developer does not see or store your payment card details. The app uses RevenueCat to verify purchase entitlement and restore purchases. According to RevenueCat's documentation it handles purchase history, an anonymous user identifier generated by the app, and the device's locale and currency code, to make purchasing and restoring work and for analytics. Data is encrypted in transit. See <a href="https://www.revenuecat.com/privacy-policy" rel="noopener">RevenueCat's Privacy Policy</a>.</p>
+
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Data</th><th>Held by</th><th>Leaves your device?</th></tr></thead>
+    <tbody>
+      <tr><td>Cards, transactions, installment plans, settings</td><td>Your device (encrypted)</td><td>No</td></tr>
+      <tr><td>IP address, interactions, diagnostics, device identifiers / advertising ID</td><td>Google (AdMob)</td><td>Yes — when the app starts and when it shows ads</td></tr>
+      <tr><td>Purchase history, entitlement status, anonymous user identifier</td><td>RevenueCat and Google Play</td><td>Yes — when you buy or restore a purchase</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>4. Sharing and sale of data</h2>
+  <p>The developer does not sell your data and does not receive your card or spending data. Data sent to the providers in section 3 is handled under each provider's own policy.</p>
+
+  <h2>5. Retention and deletion</h2>
+  <ul>
+    <li><strong>On-device data:</strong> you can delete transactions or cards in the app, or remove everything by clearing the app's data in system settings or uninstalling the app. The encryption key is deleted on uninstall, which makes any remaining copy unreadable.</li>
+    <li><strong>Data held by providers:</strong> to have purchase data held by RevenueCat deleted, contact the developer (section 8) and the developer will arrange the deletion. Google ad data can be managed in your Google Account settings and Android's advertising ID settings.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>The app is not designed for children, and the developer does not knowingly collect data from children.</p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>If this policy changes, the developer will update this page and the effective date above.</p>
+
+  <h2>8. Contact</h2>
+  <p>Email: <a href="mailto:paytan966@gmail.com">paytan966@gmail.com</a></p>
+</section>
+
+</main>
+</body>
+</html>
